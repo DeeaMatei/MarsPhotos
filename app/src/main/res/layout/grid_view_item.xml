@@ -26,11 +26,11 @@
     </data>
     <ImageView
         android:id="@+id/mars_image"
-        app:imageUrl="@{photo.imgSrcUrl}"
         android:layout_width="wrap_content"
         android:layout_height="170dp"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:padding="2dp"
+        app:imageUrl="@{photo.imgSrcUrl}"
         tools:src="@tools:sample/backgrounds/scenic"/>
 </layout>
